@@ -21,7 +21,7 @@ export default async function page() {
       <h1 className="text-2xl font-bold">Comments Data from Public API</h1>
       <SecondNavigations />
 
-      <div className='flex flex-col md:grid lg:grid-cols-3 gap-4'>
+      <div className='flex flex-col md:grid lg:grid-cols-4 gap-4'>
         {
           comments.map(comment => {
             return (
